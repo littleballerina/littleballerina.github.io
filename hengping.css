@@ -33,6 +33,7 @@ a, body {
   -webkit-transition: color 250ms;
   -o-transition: color 250ms;
   transition: color 250ms;
+  word-wrap: break-word ;
 }
 
 .zuoce .lianxifangshi a:hover {
@@ -55,34 +56,32 @@ a, body {
   margin-bottom: 4px;
 }
 
-.wenzhang, .article {
+.wenzhang  {
   margin-right: 25%;
   background: #28292D;
-  padding: 20px 30px;
+  padding: 8px 8px;
   -webkit-box-shadow: 0 0 2px 2px rgba(0,0,0,.25);
   box-shadow: 0 0 2px 2px rgba(0,0,0,.25);
 }
 
-.wenzhang .item  {
-  margin-bottom: 64px;
+.wenzhang .xiangmu  {
+  margin-bottom: 32px;
 }
 
-.wenzhang .item .title,
-.article .title {
+.wenzhang .xiangmu .biaoti {
   color: #9FA1A5;
   font-size: 24px;
   font-weight: bold;
 }
 
-.wenzhang .item .status,
-.article .status {
-  font-size: 12px;
+.wenzhang .xiangmu .xinxi {
+  font-size: 16px;
   color: #454449;
 }
 
-.wenzhang .item > *,
-.article > * {
-  margin: 8px 0;
+.wenzhang .xiangmu > *,
+.wenzhang > * {
+  margin: 16px 16px;
 }
 
 #menu-checkbox,
