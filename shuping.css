@@ -1,0 +1,35 @@
+.zuoce {
+  position: relative;
+  width: 100%;
+  float: none;
+}
+
+.youce {
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.wenzhang {
+  margin: 0;
+}
+
+.zuoce .lianxifangshi {
+  display: none;
+  text-align: left;
+}
+
+#menu-checkbox:checked ~ .lianxifangshi,
+#menu-checkbox:checked ~ .biaoqian {
+  display: block;
+}
+
+#menu-toggle {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  font-size: 18px;
+  font-weight: 100;
+  color: rgba(255,255,255,.7);
+}
